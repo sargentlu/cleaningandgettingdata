@@ -87,8 +87,8 @@ dataset <- create_dataset()
 data_summary <- create_summary(dataset)
 
 #   Remove temporary objects
-rm(list = c("activity_labels", "create_dataset", "create_summary",
+rm(list = c("create_dataset", "create_summary",
             "data_path", "download_dataset", "read_file"))
 setwd("../..")
 
-fwrite(data_summary, "tidy_data.csv")
+write.table(data_summary, "tidy_data.txt", row.names = FALSE)

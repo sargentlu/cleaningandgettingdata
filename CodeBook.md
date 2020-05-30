@@ -40,4 +40,4 @@ Raw data was not used to make the analysis, files in the `/Inertial Signals` fol
 
 6. The tidy dataset is then grouped by its `activity_id` and `subject_id`, and summarized into a dataset with the mean value of each group.
 
-7. The `activity_type` is included into the summarized dataset, and is then exported to the `tidy_data.csv` file.
+7. The `activity_type` is included into the summarized dataset, and is then exported to the `tidy_data.txt` file.

@@ -18,4 +18,4 @@ This will do the following
 
 8. Groups the tidy dataset by its `activity_id` and `subject_id`, and create a summarized dataset with the mean value of each group.
 
-9. Exports the resulting tidy dataset as 'tidy_data.csv, which can be found on the `data` directory.
+9. Exports the resulting tidy dataset as 'tidy_data.txt'.
